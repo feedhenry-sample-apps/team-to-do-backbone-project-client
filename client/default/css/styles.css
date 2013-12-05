@@ -1,0 +1,479 @@
+
+body{
+    padding-left:0;
+    padding-right:0;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+input,textarea,select{
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
+}
+
+.mainContainer{
+  
+}
+
+.container{
+}
+
+#container{
+    width:100%;
+    z-index: 5;
+    left: 0px;
+    height: 100%;
+    padding-left:15px;
+    padding-right:15px;
+    position:absolute;
+    background: url('../images/bg.jpg');
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    -webkit-box-shadow:  -1px 0px 1px 0px rgba(0, 0, 0, 0.2);
+    moz-box-shadow:  -1px 0px 1px 0px rgba(0, 0, 0, 0.2);
+    o-box-shadow:  -1px 0px 1px 0px rgba(0, 0, 0, 0.2);
+    box-shadow:  -1px 0px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+/****************************Menu****************************/
+
+
+#menu {
+    float:left;
+    width: 230px;
+    height: 100%;
+    background: url('../images/menuBg.jpg') rgba(0,0,0,.5);
+    padding-top: 70px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#menu li {
+
+/*    border-top: 1px solid #212121;
+    border-bottom: 2px solid #383838;*/
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    padding: 10px;
+}
+
+
+#menu ul{
+/*    border-bottom: 1px solid #212121;*/
+}
+
+#menu li:first-child{
+    border-top: 0 none;
+
+}
+
+#menu li img{
+    /*float:left;
+    padding:10px;*/
+}
+#menu li:active, #menu li:focus, #menu li:hover, #menu li.active{
+    background:#88bc40;
+}
+
+/*.menuNavigation li:active, .menuNavigation li:focus, .menuNavigation li:hover {
+    background:#88bc40;
+}*/
+
+#menubar {
+    width:100%;
+    background-color:#333;
+    color: #fff;
+    padding: 10px;
+}
+
+#top-menu {
+    cursor:pointer;
+}
+
+#menu ul{
+    padding-left:0;
+    margin-left:0;
+}
+
+#menu ul li{
+    list-style-type:none;
+}
+
+
+#menu, #container {
+    display:inline;
+}
+
+
+#menu li a {
+    padding: 10px;
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+
+
+textarea{
+    resize:none; 
+    height:50px;
+    max-height:50px;
+    overflow:scroll;
+}
+
+.left-button{ 
+    width:50%;
+}
+
+.right-button{
+    width:40%;
+    margin-left:10%;
+}
+
+.button-container{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.button-area{
+    margin-bottom:15px;
+}
+
+
+.double-button{
+    margin-top:30px;
+}
+.triple-button .left-button{
+        width:25%;
+}
+
+.triple-button .left-button:first-child{
+        width:25%;
+        margin-left:25%;
+}
+
+.triple-button .right-button{
+        width:25%;
+        float:right;
+        margin-right:7%;
+}
+
+.tripple-button .alignright { 
+        text-align:left;    
+}
+
+.alignright{
+    text-align:right;
+}
+
+
+.alignleft{
+    text-align:left;
+}
+
+.form-container{
+    margin-top:20px;
+    max-height:100px;
+}
+
+.lead {
+  margin-bottom: 0;
+}
+
+.form-group{
+    overflow:hidden;
+}
+
+.form-group label{
+    width:28%
+}
+
+.btn-lg {
+    width: 100px;
+   padding: 10px;
+   font-size: 16px;
+}
+
+.editformConatiner{
+    margin-top:30px;
+}
+
+.todo-container{
+    margin-top: 20px;
+}
+
+.button-center{
+    text-align:center;
+}
+
+.box{
+    border: 1px solid #ddd;
+    padding:2%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    /*box-shadow: 0px 0px 10px #E8E8E8;*/
+}
+
+.logo{
+    width:9%;
+    margin-top: -5px;
+}
+/*.logo.branding{
+    width:3%;
+}*/
+.logo-title{
+    font-weight:bold;
+    margin-left: 4px;
+}
+
+.logo,.pull-right img{
+    height: 40px;
+    float: right;
+}
+
+.top-box{
+    width: 80%;
+    text-align: center;
+}
+
+.bigbox{
+    height: 60px;
+}
+
+.smallbox {
+    height:auto;
+}
+/****************************LoginScreen****************************/
+#loginContainer {
+    background: url('../images/loginBg.jpg');
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    width:100%;
+    z-index: 5;
+    left: 0px;
+    height: 100%;
+    padding-left:15px;
+    padding-right:15px;
+    position:absolute;
+}
+
+.login-description,.about-description,.map-container{
+    margin-top:20px;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.loginTitle {
+    color: #fff;
+    width: 78%;
+    margin-top: 45%;
+}
+
+#loginModal {
+    margin-top: 20px;
+    background: rgba(0,0,0,.6);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+}
+/****************************Buttons****************************/
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #fff;
+    vertical-align: middle;
+    background: rgba(0,0,0,.5);
+    border: 1px solid #000;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control:focus {
+  border-color: #5cb85c;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.6);
+}
+
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+  color: #000;
+}
+
+#loginBtn{
+    width: 50%;
+    color: #fff;
+    background-color: #88bc40;
+    border-color: #88bc40;
+}
+
+#loginBtn:focus {
+    background-color: #77a538;
+    border-color: #5cb85c;
+    outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.6);
+}
+
+.input-field {
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputText {
+    padding-left: 45px;
+}
+
+select.input-field{
+    width:70%;
+}
+
+#username {
+    background: url(../images/user.png) rgba(0,0,0,.5);
+    background-repeat: no-repeat;
+}
+
+#password {
+    background: url(../images/lock.png) rgba(0,0,0,.5);
+    background-repeat: no-repeat;
+}
+
+#confirmLocation {
+    width: 30%;
+}
+
+/****************************End ------ Buttons****************************/
+
+.top-header{
+    width: 110%;
+    margin-left: -15px;
+    padding: 20px 20px 5px 20px;
+    background: #000;
+    color: #fff;
+}
+
+.refreshbutton{
+    text-align:center;
+}
+
+.single-button{
+    margin-top:15px;
+}
+
+.lead{
+    font-size:18px;
+}
+
+.form-group label{
+    margin-top: 6px;
+}
+
+.form-group{
+    margin-bottom:15px;
+}
+
+input[type="button"]{
+    -webkit-appearance: none;
+}
+
+span.date{ 
+    margin-right:10%;
+    display:inline-block;
+    width:30%;
+}
+
+span.description{
+    display:inline-block;
+    width:53%;
+}
+
+span.arrow-icon{
+    display:inline-block;
+    width:5%;
+}
+
+.list-group-item {
+    background: rgba(0,0,0,.5);
+    border: 1px solid #000;
+    color: #fff;
+}
+
+a.list-group-item:hover,
+a.list-group-item:focus {
+    text-decoration: none;
+    border-color: #5cb85c;
+    color:#fff;
+}
+
+.error-container{
+    text-align:center;
+    margin-bottom:10px;
+    color:#F00;
+}
+
+.photo-thumbnail{
+    width:45%;
+    /*border: 1px solid #333;*/
+    padding:1px;
+}
+
+.photo-thumbnail img{
+    width:100%;
+    max-width:100%;
+}
+
+.photo-container{
+    width:70%;
+}
+
+#loader{
+    display:none;
+    position: absolute;
+    left:48%;
+    top:48%;
+    height:32px;
+    width:32px;
+    background:url('../images/loader1.gif');
+    z-index: 20000;
+    background-size: 100% 100%
+}
+
+#overlay{
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#000;
+    width: 100%;
+    z-index: 500;
+}
+.back-btn{
+    width: 10%;
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+select { visibility: visible; -webkit-appearance:listbox;  background: #0f0;  border: 1px solid #ff0;}
+
+input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus {
+    border-color: #5cb85c;
+    outline: 0;
+    outline: thin dotted 9;
+     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.6);
+    color:#000;
+}

@@ -1,0 +1,96 @@
+<div class="container" id="container">
+    <div class="top-header">
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="back-btn" id="backToList">
+                    <img src="images/back.png">
+                </div>
+                <div class="logo pull-right">
+                    <img src="images/logo.png" alt="FeedHenry Logo" />
+                </div>
+                <div id="todoTitle" class="top-box lead pull-right">
+
+                </div>
+                <div class="clearfix"></div>
+            </div>	
+        </div>
+    </div>
+
+
+    <div class="form-container">
+        <div class="row-fluid">
+            <form id="edittodoform" name="edittodoform" role="form" style="text-align:left; margin: 0 auto;">
+                <div class="row-fluid">
+                    <div class="form-group">
+                        <label for="description" class="pull-left">Description</label>
+                        <textarea name="description" id="description" class=" input-field form-control pull-right" required="required">
+								
+                        </textarea>
+                        <div class="clearfix"></div>
+                    </div>
+
+                </div>
+
+                <div class="row-fluid">
+                    <div class="form-group">
+                        <label for="deadline" class="pull-left">Deadline</label>
+                        <input type="text" name="deadline" id="deadline" data-date data-date-format="yyyy-mm-dd" data-link-format="yyyy-mm-dd" class="input-field form-control datepicker pull-right" required="required" readonly="true">
+                        <div class="clearfix"></div>
+                    </div>
+
+                </div>
+
+                <div class="row-fluid">
+                    <div class="form-group">
+                        <label for="location" class="pull-left">Location</label>
+                        <input type="text" name="todoLocation" placeholder="Click to Map" id="todoLocation"  class="input-field form-control pull-right" required="required" readonly="true">
+                        <div class="clearfix"></div>
+                    </div>
+
+                </div>
+
+                <div class="row-fluid">
+                    <div class="form-group">
+                        <label for="status" class="pull-left">Status</label>
+                        <select name="status" id="status" class="input-field form-control pull-right">
+                            <option value="New">New</option>
+                            <option value="In Progress">In Progress</option>
+                            <option value="Rejected">Rejected</option>
+                        </select>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="row-fluid">
+                    <div class="form-group">
+                        <label for="yournotes" class="pull-left">Your Notes</label>
+                        <textarea name="yournotes" id="yournotes" class=" input-field form-control pull-right" required="required"></textarea>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+
+        <div class="error-container" id="detailsError"></div> 
+        <div class="button-container clearfix">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="left-button pull-left">
+                        <div class="alignright">
+                            <button name="update" id="update" class="btn btn-primary btn-lg">Update</button>
+                        </div>
+                    </div>
+                    <div class="right-button pull-right">
+                        <div class="alignleft button-area">	
+                            <button name="complete" id="complete" class="btn btn-success btn-primary btn-lg">Complete</button>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>       
+    </div>
+</div>
