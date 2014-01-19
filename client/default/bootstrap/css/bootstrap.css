@@ -1989,18 +1989,18 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-  color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+  color: #fafafa;
+  background-color: #158bbb;
+  border-color: #158bbb;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
-  color: #ffffff;
-  background-color: #3276b1;
-  border-color: #285e8e;
+  color: #fafafa;
+  background-color: #4bbfe2;
+  border-color: #4bbfe2;
 }
 
 .btn-primary.disabled,

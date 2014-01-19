@@ -1,4 +1,3 @@
-
 body{
     padding-left:0;
     padding-right:0;
@@ -11,10 +10,11 @@ input,textarea,select{
 }
 
 .mainContainer{
-  
+    background-color: #fafafa;
 }
 
 .container{
+    background-color: #fafafa;
 }
 
 #container{
@@ -25,9 +25,7 @@ input,textarea,select{
     padding-left:15px;
     padding-right:15px;
     position:absolute;
-    background: url('../images/bg.jpg');
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
+    background:#fafafa;
     -webkit-box-shadow:  -1px 0px 1px 0px rgba(0, 0, 0, 0.2);
     moz-box-shadow:  -1px 0px 1px 0px rgba(0, 0, 0, 0.2);
     o-box-shadow:  -1px 0px 1px 0px rgba(0, 0, 0, 0.2);
@@ -41,7 +39,7 @@ input,textarea,select{
     float:left;
     width: 230px;
     height: 100%;
-    background: url('../images/menuBg.jpg') rgba(0,0,0,.5);
+    background-color: #3d3c3a;
     padding-top: 70px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -72,7 +70,7 @@ input,textarea,select{
     padding:10px;*/
 }
 #menu li:active, #menu li:focus, #menu li:hover, #menu li.active{
-    background:#88bc40;
+    background:#4bbfe2;
 }
 
 /*.menuNavigation li:active, .menuNavigation li:focus, .menuNavigation li:hover {
@@ -108,19 +106,19 @@ input,textarea,select{
 #menu li a {
     padding: 10px;
     display: inline;
-    color: white;
+    color: #fafafa;
     text-decoration: none;
 }
 
 
 textarea{
-    resize:none; 
+    resize:none;
     height:50px;
     max-height:50px;
     overflow:scroll;
 }
 
-.left-button{ 
+.left-button{
     width:50%;
 }
 
@@ -157,8 +155,8 @@ textarea{
         margin-right:7%;
 }
 
-.tripple-button .alignright { 
-        text-align:left;    
+.tripple-button .alignright {
+        text-align:left;
 }
 
 .alignright{
@@ -171,12 +169,8 @@ textarea{
 }
 
 .form-container{
-    margin-top:20px;
+    margin-top:10px;
     max-height:100px;
-}
-
-.lead {
-  margin-bottom: 0;
 }
 
 .form-group{
@@ -188,7 +182,6 @@ textarea{
 }
 
 .btn-lg {
-    width: 100px;
    padding: 10px;
    font-size: 16px;
 }
@@ -198,7 +191,7 @@ textarea{
 }
 
 .todo-container{
-    margin-top: 20px;
+    margin-top:0;
 }
 
 .button-center{
@@ -242,99 +235,15 @@ textarea{
 .smallbox {
     height:auto;
 }
-/****************************LoginScreen****************************/
-#loginContainer {
-    background: url('../images/loginBg.jpg');
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    width:100%;
-    z-index: 5;
-    left: 0px;
-    height: 100%;
-    padding-left:15px;
-    padding-right:15px;
-    position:absolute;
-}
+
 
 .login-description,.about-description,.map-container{
     margin-top:20px;
-    padding: 15px;
-    text-align: center;
-    color: #fff;
-}
-
-.loginTitle {
-    color: #fff;
-    width: 78%;
-    margin-top: 45%;
-}
-
-#loginModal {
-    margin-top: 20px;
-    background: rgba(0,0,0,.6);
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 40%;
-}
-/****************************Buttons****************************/
-
-.form-control {
-    display: block;
-    width: 100%;
-    height: 40px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.428571429;
-    color: #fff;
-    vertical-align: middle;
-    background: rgba(0,0,0,.5);
-    border: 1px solid #000;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-}
-
-.form-control:focus {
-  border-color: #5cb85c;
-  outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.6);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.6);
-}
-
-.form-control[disabled],
-.form-control[readonly],
-fieldset[disabled] .form-control {
-  cursor: not-allowed;
-  background-color: #eeeeee;
-  color: #000;
-}
-
-#loginBtn{
-    width: 50%;
-    color: #fff;
-    background-color: #88bc40;
-    border-color: #88bc40;
-}
-
-#loginBtn:focus {
-    background-color: #77a538;
-    border-color: #5cb85c;
-    outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.6);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.6);
+    margin-bottom:20px;
 }
 
 .input-field {
     width:70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.inputText {
-    padding-left: 45px;
 }
 
 select.input-field{
@@ -357,12 +266,11 @@ select.input-field{
 
 /****************************End ------ Buttons****************************/
 
+
 .top-header{
-    width: 110%;
-    margin-left: -15px;
-    padding: 20px 20px 5px 20px;
-    background: #000;
-    color: #fff;
+
+    margin-top:20px;
+    margin-bottom:10px;
 }
 
 .refreshbutton{
@@ -389,7 +297,7 @@ input[type="button"]{
     -webkit-appearance: none;
 }
 
-span.date{ 
+span.date{
     margin-right:10%;
     display:inline-block;
     width:30%;
@@ -405,17 +313,13 @@ span.arrow-icon{
     width:5%;
 }
 
-.list-group-item {
-    background: rgba(0,0,0,.5);
-    border: 1px solid #000;
-    color: #fff;
-}
-
 a.list-group-item:hover,
 a.list-group-item:focus {
     text-decoration: none;
-    border-color: #5cb85c;
+    background-color: #428bca;
+    border-color: #428bca;
     color:#fff;
+
 }
 
 .error-container{
@@ -470,10 +374,13 @@ a.list-group-item:focus {
 select { visibility: visible; -webkit-appearance:listbox;  background: #0f0;  border: 1px solid #ff0;}
 
 input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus {
-    border-color: #5cb85c;
+    border-color: rgba(82,168,236,0.8);
     outline: 0;
     outline: thin dotted 9;
-     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.6);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(92, 184, 92, 0.6);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+    -ms-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+    -o-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
     color:#000;
 }
