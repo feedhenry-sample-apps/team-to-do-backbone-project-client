@@ -181,6 +181,10 @@ textarea{
     width:28%
 }
 
+#loginform .input-field {
+    padding-left: 15%;
+}
+
 .btn-lg {
    padding: 10px;
    font-size: 16px;
@@ -240,6 +244,12 @@ textarea{
 .login-description,.about-description,.map-container{
     margin-top:20px;
     margin-bottom:20px;
+}
+
+.login-description p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .input-field {
