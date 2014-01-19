@@ -22,14 +22,17 @@ input,textarea,select{
     z-index: 5;
     left: 0px;
     height: 100%;
-    padding-left:15px;
-    padding-right:15px;
     position:absolute;
     background:#fafafa;
     -webkit-box-shadow:  -1px 0px 1px 0px rgba(0, 0, 0, 0.2);
     moz-box-shadow:  -1px 0px 1px 0px rgba(0, 0, 0, 0.2);
     o-box-shadow:  -1px 0px 1px 0px rgba(0, 0, 0, 0.2);
     box-shadow:  -1px 0px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.container-view {
+    padding-left:15px;
+    padding-right:15px;
 }
 
 /****************************Menu****************************/
@@ -40,7 +43,7 @@ input,textarea,select{
     width: 230px;
     height: 100%;
     background-color: #3d3c3a;
-    padding-top: 70px;
+    padding-top: 10px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -86,6 +89,7 @@ input,textarea,select{
 
 #top-menu {
     cursor:pointer;
+    margin-top: 4px;
 }
 
 #menu ul{
@@ -213,10 +217,9 @@ textarea{
 .logo{
     width:9%;
     margin-top: -5px;
+    margin-bottom: 7px;
 }
-/*.logo.branding{
-    width:3%;
-}*/
+
 .logo-title{
     font-weight:bold;
     margin-left: 4px;
@@ -278,9 +281,10 @@ select.input-field{
 
 
 .top-header{
-
-    margin-top:20px;
     margin-bottom:10px;
+    padding: 20px 15px 0 15px;
+    background-color: #3d3c3a;
+    color: #fafafa;
 }
 
 .refreshbutton{
