@@ -33,6 +33,7 @@ input,textarea,select{
 .container-view {
     padding-left:15px;
     padding-right:15px;
+    text-align: justify;
 }
 
 /****************************Menu****************************/
@@ -185,7 +186,7 @@ textarea{
     width:28%
 }
 
-#loginform .input-field {
+#loginform .input-field-login {
     padding-left: 15%;
 }
 
@@ -259,18 +260,26 @@ textarea{
     width:70%;
 }
 
+.input-field-login {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 select.input-field{
     width:70%;
 }
 
 #username {
-    background: url(../images/user.png) rgba(0,0,0,.5);
+    background: url(../images/user.png) #3d3c3a;
     background-repeat: no-repeat;
+    color: #fafafa;
 }
 
 #password {
-    background: url(../images/lock.png) rgba(0,0,0,.5);
+    background: url(../images/lock.png) #3d3c3a;
     background-repeat: no-repeat;
+    color: #fafafa;
 }
 
 #confirmLocation {
