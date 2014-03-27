@@ -1,6 +1,7 @@
 {
+  "id": "team_todo_backbone_project_client",
   "name": "Team To-Do Backbone Project-client",
   "type": "client_hybrid",
-  "repoUrl": "https://github.com/feedhenry-training/team-to-do-backbone-project-client.git",
-  "repoBranch": "refs/heads/master"
+  "repoUrl": "git://github.com/feedhenry-sample-apps/team-to-do-backbone-project-client.git",
+  "repoBranch": "refs/heads/6066-connection-bugfixing"
 }
