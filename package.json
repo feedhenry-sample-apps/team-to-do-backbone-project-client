@@ -1,7 +1,6 @@
 {
-  "name": "feedhenry-helloworld-app-template",
-  "private": true,
-  "version": "0.0.0",
+  "name": "team-todo-backbone-app",
+  "version": "0.1.0",
   "dependencies": {},
   "devDependencies": {
     "grunt-contrib-clean": "~0.5.0",
@@ -17,6 +16,6 @@
     "node": ">=0.8.0"
   },
   "scripts": {
-    
+
   }
 }
