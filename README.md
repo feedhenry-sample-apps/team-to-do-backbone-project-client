@@ -1,3 +1,11 @@
+> NO LONGER MAINTAINED
+
+
+
+
+
+
+
 # Client: #
 It contains directory structure for all client apps which we want to develop. We can create any number of client apps under Client. The Default has been created for you by Studio, which you use it for keeping the common resources if you want to develop multiple client apps.
 In our case we mainly targeted two applications for you:
